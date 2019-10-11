@@ -4,8 +4,14 @@ Combine a series of .gitignores into one mega file. Perfect for those of us who 
 
 ## Install
 
+These instructions should be run in bash. This has been tested on Ubuntu and OSX. The first one downloads it to your `/usr/local/bin` directory and the second gives it execute permissions.
+
 ```bash
 sudo wget -O /usr/local/bin/mega-gitignore https://raw.githubusercontent.com/samruddhisomani/mega-gitignore/master/mega-gitignore
+```
+
+```
+sudo chmod +x /usr/local/bin/mega-gitignore
 ```
 
 ## Usage
