@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+
+filepath="$PWD"/.gitignore
+
+touch $filepath
+
+for var in "$@"
+do
+	#show errors but not progress bar
+	curl -sS https://raw.githubusercontent.com/github/gitignore/master/"$var".gitignore>>$filepath
+done
