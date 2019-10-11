@@ -18,7 +18,9 @@ sudo chmod +x /usr/local/bin/mega-gitignore
 
 From inside the directory you need the gitignore for run mega-gitignore with all the gitignore boilerplates you want separated by spaces. For an example project that involves Node and Python: 
 
-> ```mega-gitignore Node Python```
+```bash
+mega-gitignore Node Python
+```
 
 This will create a brand new .gitignore inside the current directory. Note that this tool will wipe and replace your current .gitignore file. 
 
