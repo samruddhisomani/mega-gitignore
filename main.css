@@ -1,0 +1,12 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Sansita Swashed", cursive;
+}

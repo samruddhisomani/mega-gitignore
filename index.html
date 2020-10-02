@@ -8,7 +8,9 @@
       content="Combine a series of .gitignores into one mega file. Perfect for those of
     us who want to use multiple gitignores in one project."
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sansita+Swashed&display=swap" rel="stylesheet">
     <link href="prism.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
     <title>Mega-Gitignore</title>
   </head>
   <body>
@@ -17,28 +19,24 @@
       Combine a series of .gitignores into one mega file. Perfect for those of
       us who want to use multiple gitignores in one project.
     </p>
-    <h2 id="why-">Why ?</h2>
-    <h3 id="why-do-we-even-care-about-gitignore-files-">
+    <h2 id="why-">Why</h2>
+    <h4 id="why-do-we-even-care-about-gitignore-files-">
       Why do we even care about <code>.gitignore</code> files?
-    </h3>
+    </h4>
     <p>
       Sometimes (most of the time?) you don&#39;t want to commit every single
       file in your directory. Common files to exclude include build artifacts
       and log files. These files are a way to tell git what you want to
       ignore--that is, not commit to your repo and track changes against.
     </p>
-    <h3 id="why-do-i-need-this-tool-">Why do I need this tool?</h3>
+    <h4 id="why-do-i-need-this-tool-">Why do I need this tool?</h4>
     <p>
       Kind people on the internet have written <code>.gitignore</code> files for
       several languages, operating systems, editors, etc. already. GitHub will
-      even let you choose one when you create a new repository!However,
+      even let you choose one when you create a new repository! However,
       sometimes you need to combine multiple files together to cover all the
-      things you want to exclude.
-    </p>
-    <p>
-      <strong
-        >This tool automates this collation process so you can spend less time
-        setting up your environment and more time building cool things!</strong
+      things you want to exclude. This tool automates this collation process
+      so you can spend less time setting up your environment and more time building cool things!</strong
       >
     </p>
     <h2 id="installation">Installation</h2>
@@ -70,7 +68,7 @@ sudo chmod +x /usr/local/bin/mega-gitignore
       case sensitive and must match exactly with the part before
       <code>.gitignore</code>.
     </p>
-    <h3 id="examples">Examples</h3>
+    <h4 id="examples">Examples</h4>
     <p>
       <strong>Node and Python:</strong> This might be useful for a project where
       you have a Python backend and a JavaScript frontend.
