@@ -20,7 +20,7 @@ These instructions are written for `bash`. This has been tested on Ubuntu and OS
 
 ```bash
 # Download to usr/local/bin so you can access it from anywhere
-sudo wget -O /usr/local/bin/mega-gitignore https://raw.githubusercontent.com/samruddhisomani/mega-gitignore/master/mega-gitignore
+sudo wget -O /usr/local/bin/mega-gitignore https://raw.githubusercontent.com/samruddhisomani/mega-gitignore/main/mega-gitignore
 
 # Give the script execute permissions so you can actually run it
 sudo chmod +x /usr/local/bin/mega-gitignore
