@@ -8,9 +8,11 @@
       content="Combine a series of .gitignores into one mega file. Perfect for those of
     us who want to use multiple gitignores in one project."
     />
+    <link href="prism.css" rel="stylesheet" />
     <title>Mega-Gitignore</title>
   </head>
   <body>
+    <main>
     <h1 id="mega-gitignore">Mega Gitignore</h1>
     <p>
       Combine a series of .gitignores into one mega file. Perfect for those of
@@ -45,11 +47,12 @@
       These instructions are written for <code>bash</code>. This has been tested
       on Ubuntu and OSX.
     </p>
-    <pre><code class="lang-bash"><span class="hljs-comment"># Download to usr/local/bin so you can access it from anywhere</span>
-sudo wget -O <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/bin/m</span>ega-gitignore https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/samruddhisomani/m</span>ega-gitignore<span class="hljs-regexp">/master/m</span>ega-gitignore
+    <pre><code class="lang-bash"># Download to usr/local/bin so you can access it from anywhere</span>
+sudo wget -O /usr/local/bin/mega-gitignore \
+https://raw.githubusercontent.com/samruddhisomani/mega-gitignore/main/mega-gitignore
 
-<span class="hljs-comment"># Give the script execute permissions so you can actually run it</span>
-sudo chmod +x <span class="hljs-regexp">/usr/</span>local<span class="hljs-regexp">/bin/m</span>ega-gitignore
+# Give the script execute permissions so you can actually run it
+sudo chmod +x /usr/local/bin/mega-gitignore
 </code></pre>
     <h2 id="usage">Usage</h2>
     <p>
@@ -73,7 +76,7 @@ sudo chmod +x <span class="hljs-regexp">/usr/</span>local<span class="hljs-regex
       <strong>Node and Python:</strong> This might be useful for a project where
       you have a Python backend and a JavaScript frontend.
     </p>
-    <pre><code class="lang-bash">mega-gitignore <span class="hljs-keyword">Node</span> <span class="hljs-title">Python</span>
+    <pre><code class="lang-bash">mega-gitignore Node Python
 </code></pre>
     <p>
       <strong>OSX and VSCODE:</strong> This might be useful if you&#39;re
@@ -83,14 +86,15 @@ sudo chmod +x <span class="hljs-regexp">/usr/</span>local<span class="hljs-regex
       these to your personal global or local <code>.gitignore</code>, that
       option runs the risk of collaborators adding those files in by mistake.
     </p>
-    <pre><code class="lang-bash"><span class="hljs-symbol">mega</span>-gitignore <span class="hljs-meta">Global</span>/macOS <span class="hljs-meta">Global</span>/VisualStudioCode
+    <pre><code class="lang-bash">mega-gitignore Global/macOS Global/VisualStudioCode
 </code></pre>
     <p>
       <strong>Jupyter Notebooks and Python:</strong> This might be useful for a
       project where you&#39;re using Jupyter notebooks but you still want to
       make sure you don&#39;t accidentally include common Python exclusions.
     </p>
-    <pre><code class="lang-bash">mega-gitignore Python community<span class="hljs-regexp">/Python/</span>JupyterNotebooks
+    <pre><code class="lang-bash">mega-gitignore Python community/Python/JupyterNotebooks
 </code></pre>
+<script src="prism.js"></script>
   </body>
 </html>
